@@ -142,3 +142,7 @@ O sistema verifica que não existe um browser game com aquele determinado nome e
 **Fluxos de exceção**
 **Passo 4 (informações inválidas):**
 * O caso de uso retorna para o passo 3 do fluxo principal.
+
+# 11. Diagrama de classes do projeto
+
+
