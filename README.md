@@ -171,6 +171,8 @@ O sistema verifica que não existe um browser game com aquele determinado nome e
 
 
 
+# 9. Modelo de Domínio
+<img src="./dominio.png" alt="Prototipo de Tela"/>;
 
 # 11. Diagrama de classes do projeto
 <img src="./Diagrama.png" alt="Prototipo de Tela"/>;
