@@ -173,19 +173,19 @@ O sistema verifica que não existe um browser game com aquele determinado nome e
 
 
 # 11. Diagrama de classes do projeto
-## Diagrama de classes do projeto
 <img src="./Diagrama.png" alt="Prototipo de Tela"/>;
 
-## Cadastro
+# 12. Diagramas de sequência de Projeto
+## 12.1. Realizar Cadastro (CDU001)
 <img src="./Diagrama2.png" alt="Prototipo de Tela"/>;
 
-## Procurar browser game
+## 12.2. Procurar browser game
 <img src="./Diagrama3.png" alt="Prototipo de Tela"/>;
 
-## Fazer Avaliação
+## 12.3. Fazer Avaliação
 <img src="./Diagrama4.png" alt="Prototipo de Tela"/>;
 
-## Cadastrar um Browser Game
+## 12.4. Cadastrar um Browser Game
 <img src="./Diagrama5.png" alt="Prototipo de Tela"/>;
 
 
