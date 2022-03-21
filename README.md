@@ -160,8 +160,16 @@ O sistema verifica que não existe um browser game com aquele determinado nome e
 * O caso de uso retorna para o passo 3 do fluxo principal.
 
 
+# 8. Protótipos de Tela
+## Home
+<img src="./tela3.png" alt="Prototipo de Tela"/>;<br/>
+## Login/Cadastro
+<img src="./tela.png" alt="Prototipo de Tela"/>;
+<img src="./login.png" alt="Prototipo de Tela"/>;<br/>
+<img src="./cadastro.png" alt="Prototipo de Tela"/>;
 
-<img src="./casos.jpg" alt="casos de uso"/>;
+
+
 
 
 # 11. Diagrama de classes do projeto
