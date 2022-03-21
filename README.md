@@ -61,5 +61,84 @@ Os Interessados do GoodBrowserGames serão todos aqueles que já jogam, ou tem i
 
 <img src="./casos.jpg" alt="casos de uso"/>;
 
+# 7. Descrição dos casos de uso principais
+### 7.1. Cadastro usuário (CDU002)
+
+Resumo: Uma pessoa que acessa a página inicial da Good Browser Games tem a opção de tornar-se um membro. Tornando-se um membro, ele poderá avaliar e obter recomendações de browser games.
+Ator principal: Usuário
+Pré-condições: Nenhuma
+Pós-condições: O visitante está registrado como membro e consegue acessar as funções restritas aos membros da Good Browser Games.
+
+### Fluxo principal
+* A pessoa seleciona a opção de tornar-se um membro.
+* O sistema solicita os dados iniciais para o registro: nome completo, username, senha, data de nascimento, estado e país.
+* A pessoa fornece os dados solicitados.
+* O sistema verifica se o username informado está disponível.
+* O sistema verifica se a senha do visitante atende os critérios estabelecidos
+* O sistema registra a pessoa como membro.
+* O sistema informa a pessoa de que ele está registrado e pode acessar o sistema.
+
+### Fluxos de exceção
+
+**Passo 4 (username não está disponível):**
+
+O sistema verifica que o username escolhido já está sendo utilizado e solicita que o visitante escolha outro. O caso de uso retorna para o passo 2 do fluxo principal.
 
 
+
+## 7.2. Avaliação (CDU002)
+**Resumo:** O membro irá realizar a avaliação de um browser game que ele já jogou.
+**Ator principal:** Membro
+**Pré-condições:** O usuário é um membro registrado da GBG e já havia pesquisado um determinado Browser Game
+**Pós-condições:** A avaliação é registrada no sistema.
+
+
+
+
+
+
+
+
+
+### 7.3. Buscar Browser Games (CDU003)
+
+**Resumo:** O membro irá realizar a busca de um browser game
+** Ator principal:**  Membro
+** Pré-condições:**  O usuário é um membro registrado da GBG
+** Pós-condições:**  Um browser game será devolvido ao membro.
+
+**Fluxo principal**
+* O membro seleciona a opção de buscar um browser game.
+* O sistema fornece ao membro as opções para buscar um game.
+* O membro seleciona a opção de busca pelo nome.
+* O sistema solicita o nome do game que o membro deseja buscar.
+* O membro fornece o nome do game.
+* O sistema devolve ao membro o browser game na qual ele estava buscando.
+
+**Fluxo alternativo 1**
+* O membro seleciona a opção de busca pela categoria.
+* O sistema fornece ao membro uma lista das categorias cadastradas.
+* O membro seleciona uma das categorias.
+* O sistema apresenta uma lista do browser games da categoria escolhida em ordem alfabética.
+
+**Fluxos de exceção**
+**Passo 6 (nome inválido):**
+O sistema verifica que não existe um browser game com aquele determinado nome e informa ao membro. O caso de uso retorna para o passo 3 do fluxo principal.
+
+## 7.4. Cadastrar Browser Games (CDU004)
+**Resumo:** O administrador cadastra um novo browser game no sistema.
+**Ator principal:** Administrador
+**Pré-condições:** Nenhuma
+**Pós-condições:** Um novo Browser é adicionado ao sistema.
+
+**Fluxo principal**
+* O administrador seleciona a opção de cadastrar um browser gane.
+* O sistema carrega a tela de cadastro de browser game.
+* O administrador fornece ao sistema o nome, categoria, URL de acesso ao jogo, URL do vídeo de demonstração, descrição e imagem ilustrativa.
+* O sistema valida as informações e cadastra o novo browser game.
+* O sistema informa que o game foi cadatrado com sucesso.
+* O sistema retornar ao menu de administrador.
+* 
+**Fluxos de exceção**
+**Passo 4 (informações inválidas):**
+* O caso de uso retorna para o passo 3 do fluxo principal.
