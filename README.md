@@ -1,6 +1,6 @@
 # GBG (Good Browser Games)
 
-###   Nome dos Integrantes
+###   Nomes dos Integrantes
 Leonardo Calisto de Faria Simões – 32089716<br/>
 Yann Santos Rocha – 32054246<br/>
 Thiago José Barella – 32082118<br/>
