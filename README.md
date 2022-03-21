@@ -1,6 +1,6 @@
 # GBG (Good Browser Games)
 
-###   Nome dos Integrantes
+###   Nomes dos Integrantes
 Leonardo Calisto de Faria Simões – 32089716<br/>
 Yann Santos Rocha – 32054246<br/>
 Thiago José Barella – 32082118<br/>
@@ -142,3 +142,28 @@ O sistema verifica que não existe um browser game com aquele determinado nome e
 **Fluxos de exceção**
 **Passo 4 (informações inválidas):**
 * O caso de uso retorna para o passo 3 do fluxo principal.
+
+## 7.5. Atualizar Cadastro (CDU005)
+**Resumo:** Um membro clica no menu do site e escolhe a opção de atualizar cadastro.
+**Ator principal:** Membro
+**Pré-condições:** Nenhuma
+**Pós-condições:** O Membro tem seu cadastro atualizado.
+**Fluxo principal**
+
+* O membro seleciona a opção de atualizar cadastro no menu do site.
+* O sistema carrega a tela de atualização de cadastro.
+* O membro fornece os novos dados que serão utilizados e pressiona o botão atualizar.
+* O sistema verifica se os novos dados inseridos são válidos.
+* O sistema atualiza os dados do membro em questão
+**Fluxos de exceção**
+**Passo 4 (informações inválidas):**
+* O caso de uso retorna para o passo 3 do fluxo principal.
+
+
+
+<img src="./casos.jpg" alt="casos de uso"/>;
+
+
+# 11. Diagrama de classes do projeto
+
+
