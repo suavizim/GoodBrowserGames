@@ -173,5 +173,23 @@ O sistema verifica que não existe um browser game com aquele determinado nome e
 
 
 # 11. Diagrama de classes do projeto
+## Diagrama de classes do projeto
+<img src="./Diagrama.png" alt="Prototipo de Tela"/>;
+
+## Cadastro
+<img src="./Diagrama2.png" alt="Prototipo de Tela"/>;
+
+## Procurar browser game
+<img src="./Diagrama3.png" alt="Prototipo de Tela"/>;
+
+## Fazer Avaliação
+<img src="./Diagrama4.png" alt="Prototipo de Tela"/>;
+
+## Cadastrar um Browser Game
+<img src="./Diagrama5.png" alt="Prototipo de Tela"/>;
+
+
+
+
 
 
