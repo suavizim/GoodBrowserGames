@@ -59,5 +59,7 @@ Os Interessados do GoodBrowserGames serão todos aqueles que já jogam, ou tem i
 
 # 6. Casos de Uso
 
+<img src="./casos.jpg" alt="casos de uso"/>;
+
 
 
